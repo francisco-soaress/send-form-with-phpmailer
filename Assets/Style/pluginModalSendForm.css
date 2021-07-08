@@ -1,0 +1,25 @@
+.content-modal-sendform-general {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  top: 0;
+  left: 0;
+  z-index: 9998;
+  display: none;
+}
+
+.box-modal-sendform {
+  max-width: 600px;
+  width: 90%;
+  position: relative;
+  margin: auto;
+  padding: 0;
+}
+
+.box-modal-sendform p{
+    font-size: 1.2em;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+

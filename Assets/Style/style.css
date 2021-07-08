@@ -1,0 +1,214 @@
+.main_content h1{
+    font-size: 2.6em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main_content .box60 {
+    padding: 0 80px;
+}
+
+.form_content {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.form_content label {
+    width: 100%;
+    display: inline-block;  
+    padding: 5px 0;  
+}
+
+.form_content label p{
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form_content .input_content{
+    width: 100%;
+    padding: 10px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: none;
+
+    text-align: left;
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.input_content:focus {
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* .input_content:hover {
+    box-shadow: 0 0 4px rgba(12, 12, 185, 0.6);
+    border: 1px solid rgba(12, 12, 185, 0.6);
+} */
+
+/* Chrome/Opera/Safari */
+.form_content input::-webkit-input-placeholder {
+    font-size: 0.95em;
+    color: var(--white);
+    font-weight: 300;
+}
+
+/* Firefox 19+ */
+.form_content input::-moz-placeholder {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+/* IE 10+ */
+.form_content input:-ms-input-placeholder {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+/* Firefox 18- */
+.form_content textarea:-moz-placeholder {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+/* Chrome/Opera/Safari */
+.form_content textarea::-webkit-input-placeholder {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+/* Firefox 19+ */
+.form_content textarea::-moz-placeholder {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+/* IE 10+ */
+.form_content textarea:-ms-input-placeholder {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+/* Firefox 18- */
+.form_content textarea:-moz-placeholder {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+button {
+    width: 100%;
+    background: var(--green);
+    font-size: 1.2em;
+    color: var(--white);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    border: none;
+    transition: all 0.3s ease;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:focus {
+    background: var(--greenHouver);
+}
+
+button:hover {
+    background: var(--greenHouver);
+}
+
+/*****************************/
+/********** SUCESSO **********/
+/*****************************/
+
+.main_success .box60{
+    padding: 0 60px;
+}
+.main_success h3{
+    font-size: 2.6em;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1;    
+}
+
+.main_success p {
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 300;
+    padding: 0 0 40px 0;
+}
+
+.main_success a{
+    display: inline-block;
+    padding: 8px 24px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.main_success a:hover{
+    background: #fff;
+    color: #00b300;
+    
+}
+
+/**************************/
+/********** ERRO **********/
+/**************************/
+
+.main_error .box60 {
+    padding: 0 60px;
+}
+
+.main_error h3 {
+    font-size: 2.6em;
+    color: #d12121;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+.main_error p {
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 300;
+    padding: 0 0 40px 0;
+}
+
+.main_error a {
+    display: inline-block;
+    padding: 8px 24px;
+    border: 1px solid #555;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+
+    color: #555;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.main_error a:hover {
+    background: #555;
+    color: #fff;
+
+}

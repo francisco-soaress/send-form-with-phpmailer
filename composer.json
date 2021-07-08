@@ -1,0 +1,27 @@
+{
+    "name": "francisco_assis/send-form-with-phpmailer",
+    "description": "Enviando e-mail pelo formulário usando o PHPMailer",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francisco Assis",
+            "email": "francisco.sts@hotmail.com",
+            "role": "Developer",
+            "homepage": "https://webfr.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Config\\": "Config/"
+        },
+        "files": [
+            "Config/ConfigEmail.php",
+            "Config/Config.php"
+        ]
+    },
+    "require": {
+        "php": ">= 7.0",
+        "phpmailer/phpmailer": "6.1.7"
+    }
+}
